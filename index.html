@@ -3,48 +3,84 @@
 
 <head>
     <title>Kevin Valente Portfolio</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+
 </head>
 
 <body>
-<!-- Header -->
-    <header>
-        <h1>Kevin Valente</h1>
-    </header>
-        <nav>
-            <a href="/index.html/">About |</a> 
-            <a href="/portfolio.html/">Portfolio |</a> 
-            <a href="/contact.html/">Contact</a> 
-        </nav>
-            <br>
-            <hr>
- <!-- About Me -->
-    <div class="container">
-        <section>
-            <strong><h2>About Me</h2></strong>
-            <br>
-            <img src="https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/11150325_10153428123394245_810443916754669293_n.jpg?oh=f3d500d555e917c6d067ea014997a1f2&oe=5959873B" id="pic" alt="Kevin Valente" style="width:200px;height:200px;"/>
-            <P>My name is Kevin Valente and I am a new web developer taking classes through UofA. I have a degree in Economics and Business and experience in finance, management and education. I am TEFL/TESOL/CELTA certified and have spent one year abraod in South Korea teaching English. I am always in pursuit of knowledge and furthuring my education.</P>
-            <p>I enjoy outdoor activities, traveling and motor sports. I would like to use my design skills to work for a company with similar interests. If you would like to know more, please feel free to reach out.</p>
-        </section>
-    <!-- Right Side Box -->
-        <aside>
-            <h3>Connect With Me</h3>
-            <ul>
-                <li><a href="https://github.com/Kevinevalente">
-                    <img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" alt="Github" style="width:60px;height:60px;border:0;"></a></li>
-                <li><a href="https://www.linkedin.com/in/kevinevalente/">
-                    <img src="https://www-cdn.law.stanford.edu/wp-content/uploads/2015/05/linkedin-2.jpg" style="width:60px;height:60px;border:0;" alt="https://www.linkedin.com/in/kevinevalente/"></a></li>
-                <li><a href="Stackoverflow.com">
-                    <img src="http://sourcingrecruitment.info/wp-content/uploads/2015/05/stackoverflow.png" style="width:60px;height:60px;border:0;"></a></li>
-            </ul>
-        </aside>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Kevin Valente</a>
     </div>
-<!-- footer -->
-    <footer>
-        <p>&copy; Copyright 2017 Kevin Valente</p>
-    </footer>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/21371316_10155662203421797_7791395413310031140_n.jpg?oh=0400c5798920c76bc48be93978c8ff9e&oe=5A125C7E" class="img-responsive img-circle margin" style="display:inline" alt="Kevin Valente" width="350" height="350">
+  <h3>Automotive Enthusiast - Web Designer - Active Life Stylist</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <h3>What Is My Passion?</h3>
+    <p>My Goal in life is to make a positive impact in this world. I love meeting new people, traveling to new places and getting out of my comfort zone. I am a lifetime learner, and I truly believe that knowledge is power. I have spent my 20's in various fields including education, management training, and financial planning. Understanding businesses and the financial decisions of people intrigues me. I would like to work for a company that is making the world a better place. Hobbies include: cars, wood working, web design and craft beer.</p>
+    <br>
+    <hr>
+  <h4 class="margin">Connect With Me</h3>
+  <div class="connect">
+            <ul>
+                <a href="https://github.com/Kevinevalente">
+                    <img src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" alt="Github" style="width:60px;height:60px;border:0;"></a>
+                <a href="https://www.linkedin.com/in/kevinevalente/">
+                    <img src="https://www-cdn.law.stanford.edu/wp-content/uploads/2015/05/linkedin-2.jpg" style="width:60px;height:60px;border:0;" alt="https://www.linkedin.com/in/kevinevalente/"></a>
+                <a href="mailto:kevinevalente.com"> 
+                <img src="http://static.wixstatic.com/media/8899f9_77cad2411f344bf9872706071c0ccbb6.jpg" style="width:60px;height:60px;border:0;"></a>
+            </ul>
+        </div>   
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Collaborative Projects</h3><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Buddy Battle is an online application for competitive friends to host and track challenges.Create a challenge, Set a time frame for how long the challenge lasts and choose how you want to measure progress. Then, invite your friends and compete away. May the best buddy win! Click Below!</p>
+      <h6>Collaborated with: Nathan Maloney & Catherine Liu</h6>
+      <a href="https://github.com/nathan25maloney/Buddy-Battle"><img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/21371407_10155662096651797_4556552288815242932_n.jpg?oh=1cd47456003216a18e92c5e8ade60724&oe=5A5F4E20" class="img-responsive margin" style="width:50%; display:inline;" alt="Buddy-Battle"></a>
+    </div>
+    <div class="col-sm-6"> 
+      <p>Search for local events of varying types within a certain time frame. You will be redirected to a page that shows you all the events you can choose from and information about them. Click the button on the event of your choice and it will move the google map to the area near the event for restaurants in the area. Click Below!</p>
+      <h6>Collaborated with: Nathan Maloney & Saul Saul Perea-Garayzar</h6>
+      <a href="https://nathan25maloney.github.io/View-and-Chew/ "><img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/21432924_10155662096036797_3880267459982849222_n.jpg?oh=342b5e1c39b525d6b61ae15c2c85e015&oe=5A573C52" alt="View-and-Chew" class="img-responsive margin" style="width:50%; display:inline;" alt="View-and-Chew"></a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Kevin Eric Valente</p> 
+  <p>UofA Full Stack Coding Bootcamp 2017</p>
+</footer>
+
 </body>
+
 
 </html>
